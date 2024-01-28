@@ -1,0 +1,6 @@
+Worked on AI of slimes this weekend. Implemented wait, pursue and flee actions. Pair programming. 
+
+We decided to use a three component system for AI: Knowledge, Type and Action. Splitting it up like this simplifies the AI making prcoess. We don't create true AI in the sense but rather the illusion of ai. The AI is supposed to be predictable and controllable. 
+
+Next up is learning about shaders and the A* pathfinding algorithm, which we've chosen since it's ideal for a static but complex map like the one our game will be, compared to something like Djikstra's algorithm.
+

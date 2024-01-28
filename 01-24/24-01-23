@@ -1,0 +1,2 @@
+Implemented the first part of stealth mode, which is a slow walking speed. After some tweeking with updating direction and speed separately it worked!
+
