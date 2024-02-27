@@ -1,6 +1,9 @@
-Worked on AI of slimes this weekend. Implemented wait, pursue and flee actions. First I implemented a separate Flee function that functioned the same way as MoveTo but I realied it was redundant. I also used position of the player and slime to decide how the slime should pursue or flee from the player. The more optimal approach is instead of calcultiong the positions using the entity's position. We did pair programming. 
+Worked on AI of slimes this weekend. Implemented wait, pursue and flee actions. First I implemented a separate Flee function that functioned the same way as MoveTo but I realied it was redundant.
+I also used position of the player and slime to decide how the slime should pursue or flee from the player. The more optimal approach is instead of calcultiong the positions using the entity's position. 
+We did pair programming. 
 
-We decided to use a three component system for AI: Knowledge, Type and Action. Splitting it up like this simplifies the AI making prcoess. We don't create true AI in the sense but rather the illusion of ai. The AI is supposed to be predictable and controllable. 
+We decided to use a three component system for AI: Knowledge, Type and Action. Splitting it up like this simplifies the AI making prcoess. 
+We don't create true AI in the sense but rather the illusion of ai. The AI is supposed to be predictable and controllable. 
 
 Next up is learning about shaders and the A* pathfinding algorithm, which we've chosen since it's ideal for a static but complex map like the one our game will be, compared to something like Djikstra's algorithm.
 
