@@ -1,22 +1,12 @@
-Great weekend of game dev! I decided to start up this devlog for me to keep tabs on the progress, setbacks and reflect on what I learn during the process. I created a template for reflection I'll use everyday in addition to general reflections.
+Great weekend of game dev! I decided to start up this devlog for me to keep tabs on the progress, setbacks and reflect on what I learn during the process. 
+I created a template for reflection I'll use everyday in addition to general reflections.
 
-Started off Saturday with downloading vcpkg and setting up the environment in Visual Studio to run the game. It worked after some time.
+Started Saturday by downloading vcpkg and setting up the environment in Visual Studio to run the game. It worked after some time.
 
-We decided to go with an Agile approach using a KanBan with Trello. Perhaps doing sprints every weekend for the 3 or so hours I have available each day. We will see how the project progresses without this first to get to grips with what is possible for me to do. 
+We decided to go with an Agile approach using a KanBan with Trello. Perhaps doing sprints every weekend for the 3 or so hours I have available on my free weekend days.
+We will see how the project progresses without this first to get to grips with what is possible for me to do. 
 
 I started to read about Box2D since it's used heavily in our project. They had a specific warning about not using it for one's first C++ project. Haha, challenge accepted!
 
-I also created fire_projectile and destroy_slime functions to spawn and frie an arrow in the direction the player is facing. If it hits a slime, it and the arrow get destroyed. The player moves backwards though as the arrow spawns on the player currently, which needs to be addressed.
-
-1. Relevance to what a game programmer does.
-Game play programming. Understanding the physics engine. 
-
-2. Describing your work, it is important to explain in detail about 
-    1. the process of creating your work
-
-    2. the reasoning behind it
-    ECS
-    3. your challenges and difficulties
-    4. where did you have to re-think or adapt
-    5. why you chose the solution you did
-    6. if possible what strengths and weaknesses it might have.
+I also created fire_projectile and destroy_slime functions to spawn and fire an arrow in the direction the player is facing. 
+If it hits a slime, it and the arrow get destroyed. The player moves backwards though as the arrow spawns on the player currently, which needs to be addressed.
