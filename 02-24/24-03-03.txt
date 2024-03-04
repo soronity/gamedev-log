@@ -1,0 +1,5 @@
+A* optimization this weekend.
+
+Remove closed_list and replace with boolean member in AStarNode stuct.
+Refactor open_list to be a priority queue instead of a set. Use a functor CompareByF so organize the queue.
+

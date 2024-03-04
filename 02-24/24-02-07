@@ -1,0 +1,3 @@
+State machine, enums for each state. Difficult to manage each action state with if-else blocks. It will get unwieldy and unscaleable.
+
+State chapter in Game Programming Patters 
